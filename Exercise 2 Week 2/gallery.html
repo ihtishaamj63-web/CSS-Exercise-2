@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Star Wars Gallery</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="main-heading">The Jedi Archives</h1>
+      <h2 class="sub-heading">In a galaxy far far away....</h2>
+    </header>
+    <input
+      type="radio"
+      name="filter"
+      id="filter-all"
+      class="filter-radio"
+      checked
+    />
+    <input
+      type="radio"
+      name="filter"
+      id="filter-landscapes"
+      class="filter-radio"
+    />
+    <input
+      type="radio"
+      name="filter"
+      id="filter-portraits"
+      class="filter-radio"
+    />
+    <input
+      type="radio"
+      name="filter"
+      id="filter-architecture"
+      class="filter-radio"
+    />
+
+    <div class="filter-buttons">
+      <label for="filter-all" class="filter-btn">All</label>
+      <label for="filter-landscapes" class="filter-btn">Landscapes</label>
+      <label for="filter-portraits" class="filter-btn">Portraits</label>
+      <label for="filter-architecture" class="filter-btn">Architecture</label>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-card gallery-card-landscapes">
+        <img
+          src="https://i.ibb.co/RkYf9vXr/tatooine-1920-x-1080-wallpaper-uo59nmr8siaj1vkk.jpg"
+          alt="Twin suns over Tatooine"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Tatooine Sunrise</h3>
+          <span class="card-category">Landscapes</span>
+          <p class="card-description">
+            Twin suns rise above the Dune Sea, casting long shadows.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-landscapes">
+        <img
+          src="https://i.ibb.co/YTDHkK7c/mysterious-dagobah-swamp-night-scene-3ev2oumipsleg4y3.jpg"
+          alt="Misty Dagobah swamp"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Dagobah Swamp</h3>
+          <span class="card-category">Landscapes</span>
+          <p class="card-description">
+            Fog rolls over ancient moss and twisted roots.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-landscapes">
+        <img
+          src="https://i.ibb.co/G3RGwF47/endor.jpg"
+          alt="Forest moon of Endor"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Endor Forest</h3>
+          <span class="card-category">Landscapes</span>
+          <p class="card-description">
+            Sunlight filters through towering redwoods and ferns.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-landscapes">
+        <img
+          src="https://i.ibb.co/hFjzZZP0/Ahch-to.jpg"
+          alt="Cliffs of Ahch-To"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Ahch-To Cliffs</h3>
+          <span class="card-category">Landscapes</span>
+          <p class="card-description">
+            Rugged sea cliffs rise above stormy island waters.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-portraits">
+        <img
+          src="https://i.ibb.co/FbZLTN9h/luke.jpg"
+          alt="Portrait of Luke Skywalker"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Luke Skywalker</h3>
+          <span class="card-category">Portraits</span>
+          <p class="card-description">
+            The soon to be last Jedi trains with his master Yoda.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-portraits">
+        <img
+          src="https://i.ibb.co/5gk1WLyv/Leia.jpg"
+          alt="Portrait of Princess Leia"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Princess Leia</h3>
+          <span class="card-category">Portraits</span>
+          <p class="card-description">
+            A rebel leader whose calm courage inspires hope.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-portraits">
+        <img
+          src="https://i.ibb.co/9fMm5mX/anakin.jpg"
+          alt="Portrait of Anakin Skywalker"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Anakin Skywalker</h3>
+          <span class="card-category">Portraits</span>
+          <p class="card-description">
+            The chosen one, meant to bring balance to the force.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-portraits">
+        <img
+          src="https://i.ibb.co/VYX7Jy7R/Obi-Wan.jpg"
+          alt="Portrait of Obi-Wan Kenobi"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Obi-Wan Kenobi</h3>
+          <span class="card-category">Portraits</span>
+          <p class="card-description">
+            A wise Jedi master who defeated a young Darth Vader.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-architecture">
+        <img
+          src="https://i.ibb.co/3yNrzdVm/Death-Star.jpg"
+          alt="Death Star Interior"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Death Star</h3>
+          <span class="card-category">Architecture</span>
+          <p class="card-description">
+            Interior of the Empire's massive battle station designed to dominate
+            the galaxy.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-architecture">
+        <img
+          src="https://i.ibb.co/fVtZzsWp/Jedi-Temple.png"
+          alt="Coruscant Jedi Temple Interior"
+        />
+        <div class="card-overlay">
+          <h3 class="card-title">Jedi Temple</h3>
+          <span class="card-category">Architecture</span>
+          <p class="card-description">
+            Ancient halls where Jedi trained and protected peace.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-architecture">
+        <img src="https://i.ibb.co/1fChtw7F/Otoh-Gunga.jpg" alt="Otoh Gunga" />
+        <div class="card-overlay">
+          <h3 class="card-title">Otoh Gunga</h3>
+          <span class="card-category">Architecture</span>
+          <p class="card-description">
+            Underwater city on Naboo for the Gungans.
+          </p>
+        </div>
+      </div>
+      <div class="gallery-card gallery-card-architecture">
+        <img src="https://i.ibb.co/RpRNRfWF/naboo.jpg" alt="Naboo Palace" />
+        <div class="card-overlay">
+          <h3 class="card-title">Naboo Palace</h3>
+          <span class="card-category">Architecture</span>
+          <p class="card-description">
+            The royal residence of the Queen of Naboo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
